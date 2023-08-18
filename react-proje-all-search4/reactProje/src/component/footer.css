@@ -1,0 +1,32 @@
+.footer{
+    width: auto;
+    height: 250px;
+    background-color:#032541;
+    color: white;
+    text-align: end;
+}
+.footer-box h3{
+    margin-top: 36px;
+    color: #FFF;
+    text-align: right;
+
+    /* h5/bold */
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 24px */
+    padding-bottom: 5%;
+}
+.footer-box p{
+    margin-bottom: 0;
+    color: #FFF;
+    text-align: right;
+
+    /* body/regular */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}

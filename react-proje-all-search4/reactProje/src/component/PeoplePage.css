@@ -1,0 +1,35 @@
+.card5 img{
+    border-radius: 10px;
+}
+.card5 h5{
+    margin-bottom: 5px;
+    color: #545454;
+/* h5/bold */
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+.ratingPerson{
+    font-size: 14px;
+    margin: 5px 0;
+    color: #828282;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
+.Popular-h1{ 
+    color: #555;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

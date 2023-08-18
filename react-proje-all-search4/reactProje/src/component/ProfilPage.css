@@ -1,0 +1,140 @@
+
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.profile-image {
+  width: 400px;
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.profile-image img {
+  height: auto;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.profile-details h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.profile-details p {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.genre-list {
+  list-style: none;
+  padding: 0;
+}
+
+.genre-list li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.genre-list li span {
+  font-weight: bold;
+  display: inline-block;
+  width: 120px;
+  color: #555;
+}
+
+.percentage-bar {
+  height: 20px;
+  border-radius: 10px;
+  background-color: #ddd;
+  position: relative;
+  flex: 1;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.percentage-bar::before {
+  content: attr(data-percent) "%";
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Renkli yüzdelik barları */
+.genre-list li:nth-child(1) .percentage-bar::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 70%;
+  background-color: #e74c3c;
+  border-radius: 10px;
+}
+
+.genre-list li:nth-child(2) .percentage-bar::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 40%;
+  background-color: #f39c12;
+  border-radius: 10px;
+}
+
+.genre-list li:nth-child(3) .percentage-bar::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 25%;
+  background-color: #3498db;
+  border-radius: 10px;
+}
+
+.genre-list li:nth-child(4) .percentage-bar::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 15%;
+  background-color: #27ae60;
+  border-radius: 10px;
+}
+
+.genre-list li:nth-child(5) .percentage-bar::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 75%;
+  background-color: #9b59b6;
+  border-radius: 10px;
+}
+
+/* Responsive stiller */
+@media (max-width: 600px) {
+  .profile-container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .profile-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+}

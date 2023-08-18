@@ -1,0 +1,14 @@
+.titleh1{
+    text-align: center;
+    align-items: center;
+    color: #555;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+

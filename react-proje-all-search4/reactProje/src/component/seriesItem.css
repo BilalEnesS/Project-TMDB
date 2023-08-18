@@ -1,0 +1,54 @@
+.card-container2 {
+    display: flex;
+    width: 196px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .series-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .card2 {
+  
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #fff;
+    padding-bottom: 20px;
+  }
+  
+  .card2 img {
+    width: 100%; /* Kartın içindeki resmin genişliği */
+    height: auto; /* İçerik oranını koru */
+    border-radius: 10px;
+  }
+  
+
+  
+  .card-body2 h3 {
+    margin-bottom: 5px;
+    color: #545454;
+/* h5/bold */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 24px */
+      }
+  
+  .card-body2 p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #828282;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 18px */
+  }
+  

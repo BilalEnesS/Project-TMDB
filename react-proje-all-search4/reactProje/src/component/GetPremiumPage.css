@@ -1,0 +1,85 @@
+/* GetPremiumPage.css */
+.premium-container {
+  text-align: center;
+  padding: 100px 0; /* Üstten ve alttan boşluk eklendi */
+  background-color: #e0e7ea; /* Arka plan rengi yumuşatıldı */
+  margin-bottom: 15%;
+ 
+}
+
+.premium-box-container {
+  display: flex;
+  flex-wrap: wrap; /* Kutuların sıralaması iyileştirildi */
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.premium-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+  flex: 1; /* Kutuların eşit genişlikte olması */
+}
+
+.premium-box.basic:hover {
+  background-color: #FFB347;
+}
+
+.premium-box.standard:hover {
+  background-color: #82CA9D;
+}
+
+.premium-box.premium:hover {
+  background-color: #FF6663;
+}
+
+.premium-box h2 {
+  color: #333;
+}
+
+.premium-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px; /* Buton boyutu artırıldı */
+  background-color: #02B2E3;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+.title-premium{
+  color: #555;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -1.2px;
+
+}
+.premium-box-container p {
+  color: #828282;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 18px */
+}
+.premium-box-container h2 {
+  color: #555;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -1.2px;
+}
+
+

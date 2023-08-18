@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-right {
+    display: flex;
+    text-align: right;
+}
+
+.developer {
+    text-align: right;
+    font-size: 12px;
+}
+
+.navbar-right .logo-right img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.nav-item {
+    margin-left: 10%;
+    display: inline-flex;
+    align-items: flex-start;
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+.navbar-brand{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.button-eng{
+    margin-right: 15px;
+    border-radius: 3px;
+    border: 1px solid #A6A6A6;
+    background: rgba(226, 42, 42, 0.00);
+    padding: 6px 12px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #A6A6A6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 185.714% */
+        
+}
+.profile-link {
+    text-decoration: none; /* Çizgiyi kaldırma */
+    color: #000;
+  }

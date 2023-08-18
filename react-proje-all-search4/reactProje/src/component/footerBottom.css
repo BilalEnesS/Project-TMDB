@@ -1,0 +1,12 @@
+.footer-bottom{
+    height: 56px;
+    width: auto;
+    padding-top:3px;
+}
+.footer-right{
+   display: flex;
+   flex-direction: row;
+   text-align: end;
+   padding: 0;
+   justify-content: space-between;
+}
